@@ -4,81 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3e39263-f246-474e-bf8c-c4dcce1840e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    <list default="true" id="f3e39263-f246-474e-bf8c-c4dcce1840e8" name="Changes" comment="feat(shared): add UUID">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/domain/model/uuid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/domain/model/uuid.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Daroh19"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/F4bris/javascript-review.git",
+    "accountId": "d92e91d5-2fea-4c8c-aa84-98c6eb44692c"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.002438266797161" />
-      <entry key="MS500" value="1.3911770161123842" />
-      <entry key="S2" value="4.596576594562274" />
-      <entry key="S5" value="11.21495126525732" />
-      <entry key="S10" value="18.137767083415515" />
-      <entry key="S30" value="31.66604487683589" />
-      <entry key="S60" value="43.543963894452226" />
-      <entry key="M2" value="59.51254598668367" />
-      <entry key="M5" value="89.42251033946913" />
-      <entry key="M10" value="114.35400150804112" />
-      <entry key="M15" value="126.77195485797446" />
-      <entry key="M30" value="142.3248606041823" />
-      <entry key="H1" value="151.57338134304734" />
-      <entry key="H2" value="156.62896315571612" />
-      <entry key="H4" value="159.273654489092" />
-      <entry key="D1" value="161.53981593597794" />
-      <entry key="W1" value="161.9341159164698" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000000273" />
+      <entry key="S2" value="1.0006977984633074" />
+      <entry key="S5" value="1.0965768478302085" />
+      <entry key="S10" value="1.5312370574310337" />
+      <entry key="S30" value="3.5448144115103863" />
+      <entry key="S60" value="7.83831903732536" />
+      <entry key="M2" value="15.272692410067073" />
+      <entry key="M5" value="30.328970814764965" />
+      <entry key="M10" value="56.501417018957305" />
+      <entry key="M15" value="83.01905172354024" />
+      <entry key="M30" value="140.59923136523912" />
+      <entry key="H1" value="193.770078536368" />
+      <entry key="H2" value="230.66047457102133" />
+      <entry key="H4" value="252.4995368612545" />
+      <entry key="D1" value="272.71745245909943" />
+      <entry key="W1" value="276.38313187523096" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.3104892652198328E-172" />
-      <entry key="S2" value="1.42375561106811E-43" />
-      <entry key="S5" value="1.2710315152878137E-17" />
-      <entry key="S10" value="7.440222354075604E-9" />
-      <entry key="S30" value="0.007137941773553262" />
-      <entry key="S60" value="0.24768338276830115" />
-      <entry key="M2" value="1.538943690342023" />
-      <entry key="M5" value="4.859949538707055" />
-      <entry key="M10" value="7.261791755406188" />
-      <entry key="M15" value="8.325862184443773" />
-      <entry key="M30" value="9.561511365115068" />
-      <entry key="H1" value="10.253210133524114" />
-      <entry key="H2" value="10.619421704973316" />
-      <entry key="H4" value="10.807876328931277" />
-      <entry key="D1" value="10.967721234371897" />
-      <entry key="W1" value="10.99538238131606" />
+      <entry key="MS100" value="5.824053958537721E-250" />
+      <entry key="MS500" value="1.422476426701305E-50" />
+      <entry key="S2" value="3.4535143872412043E-13" />
+      <entry key="S5" value="1.0360162534381427E-5" />
+      <entry key="S10" value="0.0032570390057852752" />
+      <entry key="S30" value="0.1855800417421338" />
+      <entry key="S60" value="0.6327039852204689" />
+      <entry key="M2" value="1.3279938999106493" />
+      <entry key="M5" value="2.872772855021048" />
+      <entry key="M10" value="5.29001000122447" />
+      <entry key="M15" value="7.387814504220341" />
+      <entry key="M30" value="11.589901832453226" />
+      <entry key="H1" value="15.309318146898782" />
+      <entry key="H2" value="17.846073397791653" />
+      <entry key="H4" value="19.336311194633776" />
+      <entry key="D1" value="20.709758512940834" />
+      <entry key="W1" value="20.958206857347626" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.0031396788658991934" />
-      <entry key="MS500" value="0.5680133764103431" />
-      <entry key="S2" value="3.8945083492411787" />
-      <entry key="S5" value="10.614178458609423" />
-      <entry key="S10" value="17.678280113070603" />
-      <entry key="S30" value="31.421799409277362" />
-      <entry key="S60" value="43.626783017415995" />
-      <entry key="M2" value="60.920622482679875" />
-      <entry key="M5" value="94.18230681401799" />
-      <entry key="M10" value="121.54748907144561" />
-      <entry key="M15" value="135.04672611537111" />
-      <entry key="M30" value="151.85753930898625" />
-      <entry key="H1" value="161.81124117346639" />
-      <entry key="H2" value="167.24046051464367" />
-      <entry key="H4" value="170.07750426765713" />
-      <entry key="D1" value="172.50685695520053" />
-      <entry key="W1" value="172.92940089834818" />
+      <entry key="MS100" value="0.9075191553171609" />
+      <entry key="MS500" value="0.9807790039885781" />
+      <entry key="S2" value="0.9958547803847875" />
+      <entry key="S5" value="1.0944867361214345" />
+      <entry key="S10" value="1.5326820371995178" />
+      <entry key="S30" value="3.712150670846076" />
+      <entry key="S60" value="8.4298399673185" />
+      <entry key="M2" value="16.550775827897343" />
+      <entry key="M5" value="33.15928055444787" />
+      <entry key="M10" value="61.75408084150175" />
+      <entry key="M15" value="90.3717819699704" />
+      <entry key="M30" value="152.16068218944116" />
+      <entry key="H1" value="209.0601497078336" />
+      <entry key="H2" value="248.4951837060356" />
+      <entry key="H4" value="271.8296508441994" />
+      <entry key="D1" value="293.42609865086666" />
+      <entry key="W1" value="297.3411777719679" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -99,7 +123,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/project-setup",
     "javascript.preferred.runtime.type.id": "node",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -108,6 +132,7 @@
     "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.javascript.review.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -143,11 +168,60 @@
       <option name="presentableId" value="Default" />
       <updated>1788794169398</updated>
       <workItem from="1788794179819" duration="53000" />
-      <workItem from="1788794429672" duration="1679000" />
+      <workItem from="1788794429672" duration="3917000" />
     </task>
+    <task id="LOCAL-00001" summary="chore: inicial commit with package.json and src/index.js">
+      <option name="closed" value="true" />
+      <created>1788796334484</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788796334484</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore: a gitignore">
+      <option name="closed" value="true" />
+      <created>1788796492232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1788796492232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="chore: add package-lock.json">
+      <option name="closed" value="true" />
+      <created>1788796562357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1788796562357</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build:  add eslint config">
+      <option name="closed" value="true" />
+      <created>1788797331738</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1788797331738</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(shared): add UUID">
+      <option name="closed" value="true" />
+      <created>1788797910352</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1788797910352</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore: inicial commit with package.json and src/index.js" />
+    <MESSAGE value="chore: a gitignore" />
+    <MESSAGE value="chore: add package-lock.json" />
+    <MESSAGE value="build:  add eslint config" />
+    <MESSAGE value="feat(shared): add UUID" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(shared): add UUID" />
   </component>
 </project>
