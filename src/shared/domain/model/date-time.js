@@ -30,7 +30,7 @@ export class DateTime {
      * @params {DateTime} other - The other DateTime instance to compare with.
      * @returns {boolean} tRUE IF both
      * */
-    equals(other){
+    equals (other){
         return other instanceof DateTime && this.#date.getTime() === other.date.getTime();
     }
 }
