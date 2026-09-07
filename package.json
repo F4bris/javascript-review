@@ -1,0 +1,36 @@
+{
+  "name": "8150",
+  "version": "1.0.0",
+  "description": "A sample javascript project demostrating Obect-Oriented Programming (OOP), and Domain-Driven Design (DDD) concepts in a Suply Chain and Procurement context.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run lint",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "javascript",
+    "oop",
+    "ddd",
+    "supply-chain",
+    "procurement"
+  ],
+
+  "dependencies": {
+    "uuid": "^14.0.2"
+  },
+
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0",
+    "prettier": "^3.9.6"
+  },
+
+  "author": "Web application development Team",
+  "license": "MIT",
+  "private": "true"
+}
