@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3e39263-f246-474e-bf8c-c4dcce1840e8" name="Changes" comment="feat(shared): add PurchaseId value object">
-      <change afterPath="$PROJECT_DIR$/src/shared/domain/model/money.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f3e39263-f246-474e-bf8c-c4dcce1840e8" name="Changes" comment="feat(shared): add Money value object">
+      <change afterPath="$PROJECT_DIR$/src/scm/domain/model/supplier.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.835161224938941E-38" />
-      <entry key="MS500" value="3.6011891953895974E-8" />
-      <entry key="S2" value="0.026432791965580873" />
-      <entry key="S5" value="0.586162279948236" />
-      <entry key="S10" value="1.9735322659682721" />
-      <entry key="S30" value="8.184127019664317" />
-      <entry key="S60" value="18.09972012039564" />
-      <entry key="M2" value="37.0629305134068" />
-      <entry key="M5" value="88.13157909580167" />
-      <entry key="M10" value="160.63961603530817" />
-      <entry key="M15" value="220.95649947780055" />
-      <entry key="M30" value="351.7609210921365" />
-      <entry key="H1" value="493.0553711466762" />
-      <entry key="H2" value="608.4072382169263" />
-      <entry key="H4" value="684.4045315286938" />
-      <entry key="D1" value="760.2379223858896" />
-      <entry key="W1" value="774.5702441392359" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.000000000001725" />
-      <entry key="S5" value="1.0000197131051565" />
-      <entry key="S10" value="1.0044793387767523" />
-      <entry key="S30" value="1.2002074339546736" />
-      <entry key="S60" value="1.637481419052563" />
-      <entry key="M2" value="2.385644072384067" />
-      <entry key="M5" value="4.231343779474783" />
-      <entry key="M10" value="6.975665357609756" />
-      <entry key="M15" value="9.51519567578401" />
-      <entry key="M30" value="15.9451838970112" />
-      <entry key="H1" value="23.838586522294516" />
-      <entry key="H2" value="30.671824020408717" />
-      <entry key="H4" value="35.28896653414035" />
-      <entry key="D1" value="39.96036888465803" />
-      <entry key="W1" value="40.849156560440925" />
+      <entry key="S2" value="1.000039176616634" />
+      <entry key="S5" value="1.0520324376799393" />
+      <entry key="S10" value="1.6689550892319365" />
+      <entry key="S30" value="6.306905245147421" />
+      <entry key="S60" value="14.52765800896058" />
+      <entry key="M2" value="32.615054765667495" />
+      <entry key="M5" value="83.79297042152722" />
+      <entry key="M10" value="160.21526687998278" />
+      <entry key="M15" value="228.03752881085995" />
+      <entry key="M30" value="383.53657775402155" />
+      <entry key="H1" value="559.9811938442521" />
+      <entry key="H2" value="709.5173193978876" />
+      <entry key="H4" value="810.5034875375269" />
+      <entry key="D1" value="913.0902278776487" />
+      <entry key="W1" value="932.6739738471217" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="9.134366463892485E-260" />
+      <entry key="MS500" value="1.556451836507468E-52" />
+      <entry key="S2" value="1.116950500947245E-13" />
+      <entry key="S5" value="6.6001628798482676E-6" />
+      <entry key="S10" value="0.002663633090113718" />
+      <entry key="S30" value="0.23032946834599421" />
+      <entry key="S60" value="1.012145312756478" />
+      <entry key="M2" value="2.653249262362493" />
+      <entry key="M5" value="6.196373034238585" />
+      <entry key="M10" value="10.164963760501788" />
+      <entry key="M15" value="13.344838511832751" />
+      <entry key="M30" value="20.899893255272996" />
+      <entry key="H1" value="30.27910601647768" />
+      <entry key="H2" value="38.711027183401235" />
+      <entry key="H4" value="44.5746667840103" />
+      <entry key="D1" value="50.634741336092226" />
+      <entry key="W1" value="51.80154641033772" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.18803725897351E-24" />
-      <entry key="MS500" value="2.1140168433970206E-5" />
-      <entry key="S2" value="0.09303206897809416" />
-      <entry key="S5" value="0.9112064739121467" />
-      <entry key="S10" value="2.52433392128106" />
-      <entry key="S30" value="9.126105865206387" />
-      <entry key="S60" value="19.524653695670175" />
-      <entry key="M2" value="39.25380028609811" />
-      <entry key="M5" value="92.18752564042188" />
-      <entry key="M10" value="167.46254949946277" />
-      <entry key="M15" value="230.3351926382374" />
-      <entry key="M30" value="367.60229780650565" />
-      <entry key="H1" value="516.8242078412662" />
-      <entry key="H2" value="639.0372532020656" />
-      <entry key="H4" value="719.6703693419172" />
-      <entry key="D1" value="800.194072696891" />
-      <entry key="W1" value="815.4187883087757" />
+      <entry key="MS100" value="1.2827863868752163E-10" />
+      <entry key="MS500" value="0.010510681316576762" />
+      <entry key="S2" value="0.3202289746604006" />
+      <entry key="S5" value="0.6860106955665842" />
+      <entry key="S10" value="1.4647552245829747" />
+      <entry key="S30" value="6.405453311030126" />
+      <entry key="S60" value="15.382321764909502" />
+      <entry key="M2" value="35.099170463278575" />
+      <entry key="M5" value="89.83856166808476" />
+      <entry key="M10" value="170.24200641820937" />
+      <entry key="M15" value="241.25219229241816" />
+      <entry key="M30" value="404.3286184570601" />
+      <entry key="H1" value="590.1833347614721" />
+      <entry key="H2" value="748.1805233220515" />
+      <entry key="H4" value="855.0511705624008" />
+      <entry key="D1" value="963.719960707287" />
+      <entry key="W1" value="984.4747909422216" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,7 +122,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feature/shared",
+    "git-widget-placeholder": "feature/supply-chain",
     "javascript.preferred.runtime.type.id": "node",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.jshint": "true",
@@ -168,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788794169398</updated>
       <workItem from="1788794179819" duration="53000" />
-      <workItem from="1788794429672" duration="6854000" />
+      <workItem from="1788794429672" duration="7815000" />
     </task>
     <task id="LOCAL-00001" summary="chore: inicial commit with package.json and src/index.js">
       <option name="closed" value="true" />
@@ -282,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1788800727735</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(shared): add Money value object">
+      <option name="closed" value="true" />
+      <created>1788801308384</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1788801308384</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +308,7 @@
     <MESSAGE value="feat(shared): add pRODUCTiD value object for product id" />
     <MESSAGE value="feat(shared): add SupplierID value object" />
     <MESSAGE value="feat(shared): add PurchaseId value object" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(shared): add PurchaseId value object" />
+    <MESSAGE value="feat(shared): add Money value object" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(shared): add Money value object" />
   </component>
 </project>
